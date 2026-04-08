@@ -1,6 +1,6 @@
 def Jenkins():
     print("My first Jenkin setup testing")
-    return 200
+    return "status code: 200"
 
 a = Jenkins()
 print(a)
@@ -10,5 +10,7 @@ print(a)
 class JenkinsCtl:
     k = a
     print("Recursion call")
+    print()
+    print(a)
 m = JenkinsCtl()
 print(m)
