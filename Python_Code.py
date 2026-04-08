@@ -4,3 +4,11 @@ def Jenkins():
 
 a = Jenkins()
 print(a)
+
+# second check
+
+class JenkinsCtl:
+    k = a
+    print("Recursion call")
+m = JenkinsCtl()
+print(m)
